@@ -1,0 +1,490 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	max-width: 1050px;
+	margin: 0 auto;
+}
+
+.home-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+.home {
+	height: 100vh;
+	background: url(../images/5d712dd8b5069c3d4f32d291-preview.jpg) no-repeat
+		center / cover;
+}
+
+.home-title {
+	font-family: "Source Sans Pro";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 75px;
+	line-height: 94px;
+}
+
+.home-text {
+	font-family: "Source Sans Pro";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 30px;
+	margin: 0 0 50px 0;
+}
+
+.home-button {
+	background: #d2e0ff;
+	border-radius: 4px;
+	font-family: "Source Sans Pro";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 21px;
+	color: rgb(2, 27, 17);
+	padding: 20px 50px;
+	text-decoration: none;
+	transition: all 0.7s ease 0s;
+}
+
+.home-button:hover {
+	background: #09b6b6;
+	box-shadow: 0 0 15px 0 #09b6b6;
+}
+
+.games {
+	padding: 50px 0 50px 0;
+	background: linear-gradient(rgb(236, 254, 255), rgb(56, 163, 163));
+}
+
+.games-logo {
+	display: block;
+	margin: 0 auto;
+}
+
+.games-title {
+	text-align: center;
+	font-family: "Source Sans Pro";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 48px;
+	line-height: 40px;
+	color: #16063b;
+	margin: 16px 0 40px 0;
+}
+
+.games-subtitle {
+	display: block;
+	font-size: 36px;
+}
+
+.games-card {
+	flex: 0 0 320px;
+	max-width: 320px;
+	background: #afa8ff;
+	border-radius: 4px;
+	border: 1px solid #04868f;
+	overflow: hidden;
+}
+
+.card-image {
+	height: 350px;
+}
+
+.card-image-01 {
+	background: url(../images/VanGogh_1887_Selbstbildnis.jpg) no-repeat center /
+		cover;
+}
+
+.card-image-02 {
+	background: url(../images/Turner_selfportrait.jpg) no-repeat center / cover;
+}
+
+.card-image-03 {
+	background: url(../images/тициан.jpg) no-repeat center / cover;
+}
+
+.card-body {
+	padding: 22px;
+}
+
+.card-title {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 23px;
+	color: #0d3b5e;
+	margin: 0 0 11px 0;
+}
+
+.card-text {
+	font-weight: 400;
+	font-size: 21px;
+	line-height: 30px;
+	color: #031d31;
+	margin: 0 0 36px 0;
+}
+
+.card-button {
+	display: block;
+	padding: 20px;
+	text-align: center;
+	text-decoration: none;
+	background: hsl(315, 100%, 83%);
+	color: #050138;
+	border-radius: 4px;
+	transition: all 0.5s ease 0s;
+}
+
+.card-button:hover {
+	background: #ff7b00f1;
+	box-shadow: 0 0 15px 0 #ff7b00f1;
+}
+
+.games-content {
+	display: flex;
+	justify-content: center;
+	gap: 25px;
+	flex-wrap: wrap;
+}
+
+.header {
+	display: flex;
+	background: #e7ffa7;
+	padding: 11px 0;
+	border-bottom: 2px solid #09026d;
+	top: 15px;
+}
+
+.container-header {
+	display: flex;
+	align-items: center;
+}
+
+.menu {
+	flex: 1 1 auto;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.menu-link {
+	font-size: 16px;
+	line-height: 16px;
+	color: rgba(158, 6, 56, 0.74);
+	text-decoration: none;
+	margin: 0 0 0 25px;
+	transition: all 0.5s ease 0s;
+}
+
+.menu-link:hover {
+	color: #0184b8;
+	text-shadow: 0 0 5px #0184b8;
+}
+
+.header-logo {
+	height: 40px;
+	margin: 5px 0 0 150px;
+}
+
+.Xbox-title {
+	border-radius: 4px;
+	text-decoration: none;
+	font-size: 50px;
+	line-height: 70px;
+	color: #013646;
+	margin: 0 auto 28px auto;
+	padding: 10px 270px;
+}
+
+.Xbox-content {
+	display: flex;
+	justify-content: center;
+	gap: 50px;
+}
+
+.exslusive {
+	padding: 100px 0 150px 0;
+	background: linear-gradient(rgb(253, 230, 255), rgb(141, 139, 255));
+}
+
+.exslusive-image-1 {
+	padding: 100px 0 169px 0;
+	background: url(../images/eeeeeeeee.jpeg) no-repeat center / cover;
+}
+
+.exslusive-image-2 {
+	padding: 100px 0 169px 0;
+	background: url(../images/hgh.jpeg) no-repeat center / cover;
+}
+
+.exslusive-image-3 {
+	padding: 100px 0 169px 0;
+	background: url(../images/qa.jpg) no-repeat center / cover;
+}
+
+.exslusive-image-4 {
+	padding: 100px 0 169px 0;
+	background: url(../images/Hovhannes_Aivazovsky_-_The_Ninth_Wave_-_Google_Art_Project.jpg)
+		no-repeat center / cover;
+}
+
+.exslusiv-link {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 58px auto 0 auto;
+	width: 207px;
+	height: 55px;
+	font-size: 21px;
+	line-height: 21px;
+	color: #ffffff;
+	text-decoration: none;
+	border-radius: 4px;
+	background: #9e8102;
+	transition: all 0.5s ease 0s;
+}
+
+.exslusiv-link:hover {
+	background: #043761;
+	box-shadow: 0 0 15px 0 #043761;
+}
+
+.card-link {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 50px auto 0 auto;
+	width: 190px;
+	height: 40px;
+	font-size: 21px;
+	line-height: 21px;
+	color: #ffffff;
+	text-decoration: none;
+	border-radius: 4px;
+	background: #31adff;
+	transition: all 0.5s ease 0s;
+}
+
+.card-link:hover {
+	background: #360e94;
+	box-shadow: 0 0 15px 0 #360e94;
+}
+
+.pads {
+	padding: 145px 0 160px 0;
+	background-color: #a9ebff;
+}
+
+.container {
+	max-width: 1017px;
+	margin: 0 auto;
+}
+
+.pads-title {
+	font-size: 48px;
+	line-height: 56px;
+	color: #521529;
+	margin-bottom: 10px;
+}
+
+.pads-text {
+	font-size: 24px;
+	line-height: 28px;
+	color: #0a0329;
+	margin-bottom: 37px;
+	min-width: 530px;
+}
+
+.pads-block {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+}
+
+.pads-button {
+	padding: 30px 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: hsl(184, 86%, 16%);
+	text-decoration: none;
+	height: 40px;
+	font-size: 21px;
+	line-height: 31px;
+	color: #ffffff;
+	border-radius: 4px;
+	transition: all 0.5s ease 0s;
+}
+
+.pads-button:hover {
+	background: #d8ca00;
+	box-shadow: 0 0 15px 0 #d8ca00;
+}
+
+.footer {
+	padding: 58px 0 0 0;
+	background: #064f63;
+}
+
+.footer-content {
+	display: flex;
+}
+
+.footer-block {
+	flex: 0 0 33.333%;
+	padding: 0 0 0 65px;
+}
+
+.footer-title {
+	margin: 0 0 34px 0;
+	font-size: 18px;
+	line-height: 21px;
+	color: #ffe7c2;
+}
+
+.footer-link {
+	display: block;
+	margin: 0 0 28px 0;
+	font-size: 14px;
+	line-height: 16px;
+	color: rgb(0, 255, 0);
+	text-decoration: none;
+}
+
+.footer-social {
+	display: inline-block;
+	margin: 0 10px 0 0;
+}
+
+.footer-bottom {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 0 40px 0;
+	border-top: 1px solid #ffffff;
+}
+
+.footer-text {
+	font-size: 16px;
+	line-height: 19px;
+	color: #ffffff;
+}
+
+.home-duty {
+	background: url(../images/image656.jpg) no-repeat center / cover;
+}
+
+.duty-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-end;
+	height: 100vh;
+}
+
+.duty-content {
+	max-width: 330px;
+	margin: auto 0 auto auto;
+}
+
+.dute-title {
+	font-weight: 400;
+	font-size: 46px;
+	color: #04302d;
+}
+
+.dute-text {
+	font-size: 24px;
+	line-height: 30px;
+	color: #4d0404;
+	margin: 0 0 100px 0;
+}
+
+.duty-box {
+	display: flex;
+	gap: 10px;
+}
+
+.duty-button {
+	background: #035ca0;
+	border-radius: 4px;
+	font-size: 16px;
+	line-height: 21px;
+	color: #ffffff;
+	padding: 15px 30px;
+	text-decoration: none;
+	transition: all 0.7s ease 0s;
+}
+
+.duty-button:hover {
+	background: #031d31;
+	box-shadow: 0 0 10px 0 #031d31;
+}
+
+.menu-icon {
+	flex: 0 0 35px;
+	width: 30px;
+	height: 30px;
+	background: url(../images/menu-01.svg) no-repeat center / cover;
+	position: relative;
+	z-index: 11;
+	display: none;
+}
+
+@media (max-width: 600px) {
+	.menu-icon {
+		display: block;
+	}
+
+	.menu {
+		position: fixed;
+		top: -100%;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: #a5ff9d;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 40px;
+		transition: all 0.5s ease 0s;
+	}
+
+	.menu-link {
+		margin: 0;
+		font-size: 40px;
+	}
+
+	.menu.active {
+		top: 0;
+	}
+}
+
+.screens {
+	padding: 85px 0 0 0;
+	background: #f9ff9e;
+}
+
+.screens-content {
+	display: flex;
+	justify-content: center;
+	/* gap: 50px; */
+	margin: 0 0 85px 0;
+}
+
+.screens-title {
+	flex: 0 0 40%;
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 45px;
+	color: #001c27;
+}
+
+.screens-image {
+	flex: 0 0 30%;
+}
