@@ -467,14 +467,13 @@
 
 .screens {
 	padding: 85px 0 0 0;
-	background: #f9ff9e;
+	background: linear-gradient(rgb(250, 255, 182), rgb(255, 179, 179));
 }
 
 .screens-content {
 	display: flex;
 	justify-content: center;
 	/* gap: 50px; */
-	margin: 0 0 85px 0;
 }
 
 .screens-title {
@@ -487,4 +486,85 @@
 
 .screens-image {
 	flex: 0 0 30%;
+}
+
+.scenery {
+	padding: 80px 0 100px 0;
+	background: linear-gradient(rgb(194, 203, 255), rgb(228, 91, 255));
+}
+
+.screens-scenery {
+	font-weight: 400;
+	font-size: 50px;
+	line-height: 30px;
+	color: #000000;
+	text-align: center;
+}
+
+.title-scenery {
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 30px;
+	color: #000000;
+	margin: 100px 0 0 150px;
+}
+
+.text-scenery {
+	font-weight: 400;
+	font-size: 19px;
+	line-height: 30px;
+	color: #000000;
+	margin: 30px 0 0 50px;
+}
+
+.button-sceery {
+	display: inline-block;
+	margin: 0 600px 0 0;
+	background: #0603a0;
+	border-radius: 4px;
+	font-size: 16px;
+	line-height: 21px;
+	color: #fff67c;
+	padding: 20px 100px;
+	text-decoration: none;
+	transition: all 0.7s ease 0s;
+}
+
+.button-sceery:hover {
+	background: #0603a0;
+	box-shadow: 0 0 15px 0 #0603a0;
+}
+
+.title-scenery2 {
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 30px;
+	color: #000000;
+	margin: -480px 0 0 750px;
+}
+
+.text-scenery2 {
+	font-weight: 400;
+	font-size: 19px;
+	line-height: 30px;
+	color: #000000;
+	margin: 27px 0 0 600px;
+}
+
+.button-sceery2 {
+	display: inline-block;
+	margin: 0 600px 0 0;
+	background: #0603a0;
+	border-radius: 4px;
+	font-size: 16px;
+	line-height: 21px;
+	color: #fff67c;
+	padding: 20px 90px;
+	text-decoration: none;
+	transition: all 0.7s ease 0s;
+}
+
+.button-sceery2:hover {
+	background: #0603a0;
+	box-shadow: 0 0 15px 0 #0603a0;
 }
