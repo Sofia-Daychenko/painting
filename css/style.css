@@ -518,14 +518,16 @@
 }
 
 .button-sceery {
-	display: inline-block;
+	display: block;
+	width: 200px;
+	text-align: center;
 	margin: 0 600px 0 0;
 	background: #0603a0;
 	border-radius: 4px;
 	font-size: 16px;
 	line-height: 21px;
 	color: #fff67c;
-	padding: 20px 100px;
+	padding: 20px;
 	text-decoration: none;
 	transition: all 0.7s ease 0s;
 }
@@ -536,6 +538,9 @@
 }
 
 .title-scenery2 {
+	display: block;
+	width: 200px;
+	text-align: center;
 	font-weight: 400;
 	font-size: 30px;
 	line-height: 30px;
